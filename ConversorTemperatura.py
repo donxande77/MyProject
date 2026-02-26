@@ -8,21 +8,21 @@ VALOR = C = K - 273
 print("O resultado da expessão #1 é:", VALOR)
 
 # Kelvin -> Fahrenheit
-VALOR = ((Y - X) + (Z -X)) / 3
+VALOR = (K - 273) * 1.8 + 32
 print("O resultado da expessão #2 é:", VALOR)
 
 # Celsius -> Kelvin
-VALOR = (X + (Y * 2 +(Z / 10))) - 18
+VALOR = K = C + 273
 print("O resultado da expessão #3 é:", VALOR)
 
 # Celcius -> Fahrenheit
-VALOR = (X + (Y * 2 +(Z / 10))) - 18
+VALOR = F = C * 1.8 + 32
 print("O resultado da expessão #3 é:", VALOR)
       
 # Fahrenhei -> Celcius
-VALOR = (X + (Y * 2 +(Z / 10))) - 18
+VALOR = C = (f - 32) / 1.8
 print("O resultado da expessão #3 é:", VALOR)
 
 # Fahrenhei -> Kelvin
-VALOR = (X + (Y * 2 +(Z / 10))) - 18
+VALOR = K = (F - 32) * 5 / 9 + 27
 print("O resultado da expessão #3 é:", VALOR)
