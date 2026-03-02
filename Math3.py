@@ -2,7 +2,7 @@
 X = int(input("Digite o valor de X: "))
 Y = int(input("Digite o valor de Y: "))
 
-RESULTADO = X + 5
-print("O resultado 5:", X)
-RESULTADO = Y / 3
-print("O resultado 3",Y)
+R = X + 5
+print("O resultado é:", R)
+R = Y - 3
+print("O resultado é", R)

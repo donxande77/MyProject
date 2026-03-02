@@ -20,7 +20,7 @@ VALOR = F = C * 1.8 + 32
 print("O resultado da expessão #3 é:", VALOR)
       
 # Fahrenhei -> Celcius
-VALOR = C = (f - 32) / 1.8
+VALOR = C = (F - 32) / 1.8
 print("O resultado da expessão #3 é:", VALOR)
 
 # Fahrenhei -> Kelvin
