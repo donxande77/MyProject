@@ -7,7 +7,7 @@ if DIREITO == ESQUERDO and ESQUERDO == BAIXO:
     print("Equilátero")
 elif DIREITO == ESQUERDO or ESQUERDO == BAIXO or BAIXO == DIREITO:
     print("Isósceles")
-elif DIREITO > BAIXO or DIREITO < ESQUERDO:
+elif not DIREITO == ESQUERDO == ESQUERDO == BAIXO == BAIXO == DIREITO:
     print("Escaleno")
 else:
     print("Comando não executado!")
