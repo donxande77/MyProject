@@ -1,0 +1,37 @@
+# Lista para armazenar os jogadores
+time = []
+
+# Cadastro dos 11 titulares
+print("=== Cadastro dos Titulares ===")
+for i in range(11):
+    nome = input(f"Digite o nome do jogador {i+1}: ")
+    numero = int(input(f"Digite o número da camisa de {nome}: "))
+    time.append({"nome": nome, "numero": numero})
+
+# Exibição da escalação inicial
+print("\n=== Escalação Inicial ===")
+for jogador in time:
+    print(f"{jogador['numero']} - {jogador['nome']}")
+
+# Intervalo - substituições
+print("\n=== Intervalo: Substituições ===")
+
+for i in range(3):
+    print(f"\nSubstituição {i+1}")
+
+    # Mostrar jogadores atuais
+    for j, jogador in enumerate(time):
+        print(f"{j} - {jogador['numero']} - {jogador['nome']}")
+
+    sair = int(input("Digite o índice do jogador que sairá: "))
+
+    novo_nome = input("Digite o nome do jogador que entrará: ")
+    novo_numero = int(input("Digite o número da camisa do novo jogador: "))
+
+    # Realiza a substituição
+    time[sair] = {"nome": novo_nome, "numero": novo_numero}
+
+# Exibição da escalação final
+print("\n=== Escalação Final ===")
+for jogador in time:
+    print(f"{jogador['numero']} - {jogador['nome']}")
